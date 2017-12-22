@@ -1,2 +1,2 @@
 # websphere-liberty-kernel
-Its a kernel websphere liberty but run whit openjdk 
+Its a kernel websphere liberty but run Its a kernel websphere liberty but run with openjdk 
