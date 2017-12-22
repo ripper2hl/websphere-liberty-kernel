@@ -46,6 +46,8 @@ RUN mkdir /logs \
 RUN /opt/ibm/wlp/bin/server create \
     && rm -rf $WLP_OUTPUT_DIR/.classCache /output/workarea
 COPY docker-server /opt/ibm/docker/
+
+RUN chmod +x /opt/ibm/docker/docker-server
 EXPOSE 9080 9443
 
 CMD ["/opt/ibm/docker/docker-server", "run", "defaultServer"]
